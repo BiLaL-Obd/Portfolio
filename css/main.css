@@ -304,6 +304,11 @@ header .navigation a.active {
   margin: 20px 0 40px;
   user-select: none;
 }
+@media (max-width: 991px) {
+  .landing .info p {
+    margin: 50px 0;
+  }
+}
 .landing .info a {
   display: block;
   width: fit-content;
