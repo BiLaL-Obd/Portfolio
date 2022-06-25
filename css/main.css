@@ -427,7 +427,7 @@ header .navigation a.active {
   }
 }
 .about .about-content .skill .progress {
-  margin: 15px 0;
+  margin: 10px 0;
   height: 8px;
   position: relative;
   background-color: var(--bar-color);

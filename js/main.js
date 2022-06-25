@@ -133,17 +133,17 @@ allColor.forEach((li) => {
 });
 
 //Interval For Span Header
-let changeSpan = document.querySelector(".landing .change");
-let changeList = [
-  "Web Developer",
-  "FrontEnd Developer",
-  "Graphic Design",
-  "IT",
-];
-setInterval(function () {
-  let ranNum = Math.round(Math.random() * (changeList.length - 1));
-  changeSpan.innerHTML = changeList[ranNum];
-}, 1500);
+// let changeSpan = document.querySelector(".landing .change");
+// let changeList = [
+//   "Web Developer",
+//   "FrontEnd Developer",
+//   "Graphic Design",
+//   "IT",
+// ];
+// setInterval(function () {
+//   let ranNum = Math.round(Math.random() * (changeList.length - 1));
+//   changeSpan.innerHTML = changeList[ranNum];
+// }, 1500);
 
 // Add Age
 let birthday = new Date("Nov 22,1999").getTime();
